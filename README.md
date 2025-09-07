@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="banner.png" alt="AI Productivity Tool Banner" width="100%" />
+</p>
+
+
 # 🧠 AI Productivity Tool – Smart Calendar & Task Manager
 
 This project is part of a larger AI productivity system designed to help busy individuals automate their day and week.
