@@ -1,69 +1,29 @@
-# React + TypeScript + Vite
+# 🧠 AI Productivity Tool – Smart Calendar & Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is part of a larger AI productivity system designed to help busy individuals automate their day and week.
 
-Currently, two official plugins are available:
+At its core, this tool runs on a **dedicated screen** (e.g. wall-mounted Raspberry Pi or desktop app) that displays:
+- A **daily calendar view**
+- A **live to-do list**
+- **Weekly goal tracking**
+- **AI-generated time suggestions** for unplanned tasks
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tasks and goals are added instantly from a mobile interface, and the system uses AI logic to automatically:
+- Suggest the best time slots
+- Avoid conflicts
+- Prioritize tasks around fixed events and recurring goals
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Key Features (WIP)
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- ✅ Fullscreen desktop app built with **Electron + React + Tailwind CSS**
+- 🔄 **Realtime updates** using Supabase (planned)
+- 📱 Mobile to-do input (PWA or React Native — in progress)
+- 🎯 Smart **weekly goal scheduling** ("gym 3x", "read 2h", etc.)
+- 🤖 **AI scheduling engine** to structure your calendar automatically
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📁 Current Folder Structure
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
