@@ -30,10 +30,10 @@ Tasks and goals can be added instantly from a mobile interface. The scheduling e
 ## ✨ Key Features (MVP & Planned)  
 
 - 💻 **Cross-platform desktop app** built with Electron + React + TailwindCSS  
-- 🔄 **Real-time sync** using Supabase (planned)  
+- 🔄 **Real-time sync** 
 - 📱 **Mobile input app** (React Native/PWA – in development)  
 - 🎯 **Smart weekly goal scheduling** – e.g. “Workout 3×/week”, “Read 2h”  
-- 🧠 **AI scheduling engine** – automatically structure your calendar  
+- 🧠 **AI scheduling** – automatically suggest to-Dos into your calandar
 - 🔔 **Reminders & notifications** (future enhancement)  
 - 📊 **Analytics dashboard** to review productivity trends (future enhancement)  
 
