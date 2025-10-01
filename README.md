@@ -2,33 +2,42 @@
   <img src="banner.png" alt="AI Productivity Tool Banner" width="100%" />
 </p>
 
+# 🗓️ AI Productivity Tool – Smart Calendar & Task Manager  
 
-# 🧠 AI Productivity Tool – Smart Calendar & Task Manager
+A modern productivity platform designed to help busy individuals automate and optimise their daily and weekly schedules.  
 
-This project is part of a larger AI productivity system designed to help busy individuals automate their day and week.
-
-At its core, this tool runs on a **dedicated screen** (e.g. wall-mounted Raspberry Pi or desktop app) that displays:
-- A **daily calendar view**
-- A **live to-do list**
-- **Weekly goal tracking**
-- **AI-generated time suggestions** for unplanned tasks
-
-Tasks and goals are added instantly from a mobile interface, and the system uses AI logic to automatically:
-- Suggest the best time slots
-- Avoid conflicts
-- Prioritize tasks around fixed events and recurring goals
+This SaaS tool provides an **AI-driven interactive calendar** with integrated task management, enabling users to spend less time planning and more time doing.  
 
 ---
 
-## 🚀 Key Features (WIP)
+## 🚀 Overview  
 
-- ✅ Fullscreen desktop app built with **Electron + React + Tailwind CSS**
-- 🔄 **Realtime updates** using Supabase (planned)
-- 📱 Mobile to-do input (PWA or React Native — in progress)
-- 🎯 Smart **weekly goal scheduling** ("gym 3x", "read 2h", etc.)
-- 🤖 **AI scheduling engine** to structure your calendar automatically
+The AI Productivity Tool combines:  
+
+- 📅 **Calendar Views** – daily and weekly scheduling at a glance  
+- ✅ **To-Do Lists** – simple, persistent task tracking  
+- 🎯 **Goal Tracking** – recurring weekly goals (e.g. gym, study, personal projects)  
+- 🤖 **AI Time Suggestions** – intelligent recommendations for when to complete unplanned tasks  
+
+Tasks and goals can be added instantly from a mobile interface. The scheduling engine automatically:  
+
+- Suggests the best available time slots  
+- Avoids conflicts with existing events  
+- Prioritises around fixed commitments and recurring goals  
 
 ---
 
-## 📁 Current Folder Structure
+## ✨ Key Features (MVP & Planned)  
+
+- 💻 **Cross-platform desktop app** built with Electron + React + TailwindCSS  
+- 🔄 **Real-time sync** using Supabase (planned)  
+- 📱 **Mobile input app** (React Native/PWA – in development)  
+- 🎯 **Smart weekly goal scheduling** – e.g. “Workout 3×/week”, “Read 2h”  
+- 🧠 **AI scheduling engine** – automatically structure your calendar  
+- 🔔 **Reminders & notifications** (future enhancement)  
+- 📊 **Analytics dashboard** to review productivity trends (future enhancement)  
+
+---
+
+## 🗂️ Project Structure  
 
